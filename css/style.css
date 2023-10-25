@@ -1,0 +1,44 @@
+form{
+	width: 80%;
+	margin: 100px auto; 
+}
+
+label {
+    width: 200px;
+}
+
+form input[type="text"] {
+	width: 290px!important;
+}
+
+form input[type="number"] {
+    width: 290px!important;
+}
+
+form input[type="password"] {
+    width: 290px!important;
+}
+
+span {
+    width: 370px;
+    float: right;
+    border: 1px solid #ced4da;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: none;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+
+/* No arrows in the age input box */
+#age::-webkit-inner-spin-button,
+#age::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+
+
